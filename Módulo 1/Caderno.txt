@@ -1,0 +1,152 @@
+Acesse o material de apoio em PDF:
+https://github.com/gustavoguanabara/html-css/tree/master/aulas-pdf
+
+Referências On-line:
+MDN - https://developer.mozilla.org/pt-BR/
+W3C Standarts- https://www.w3.org/standards/
+WHATWG - https://whatwg.org/
+W3Schools - https://www.w3schools.com/
+
+######## MÓDULO 1 ########
+=-=-=-=-Capítulo 1-=-=-=-=
+How does the internet work?
+https://youtu.be/TNQsmPf24go?si=wdJOJI-k-Faelwa_
+
+Criador do HTML - Tim Berners-Lee
+WWW - Worl Wide Web - É uma sub rede da Internet
+
+=-=-=-=-Capítulo 2-=-=-=-=
+Representação de daos
+bit - 0 e 1 - a porção mínima para representar uma informação
+8bits - byte
+Exemplo: 01000001 = A
+            Código multibyte UTF-8
+
+1024 bytes = 1 KB   (2¹°) - Base de potência 2
+1024 KB    = 1 MB
+1024 MB    = 1 GB
+1024 GB    = 1 TB
+1024 TB    = 1 PB
+1024 PB    = 1 EB
+1024 EB    = 1 ZB
+1024 ZB    = 1 YB
+
+MB - MegaBytes - Armazenamento
+Mb - Megabits  - Transmissão
+
+
+Capítulo 2 - aula 02
+www.github.com/gustavoguanabara - URL
+www - sub-dominio
+github - domínio
+.com - TLD
+/gustavoguanabara - caminho
+
+Capítulo 3 - aula 01
+HTML - HyperText Markup Language
+CSS - Cascading Style Sheets
+
+HTML é focada em contúdo(textos, imagens, vídeos, tabelas)
+CSS é focada em design(cores, sombras, tamanhos, posicionamento)
+Javascript é focado em interatividade(menus, animações, popups, validações)
+
+Tags HTML
+<h1>exemplo de título<h1>
+<p>exemplo de parágrafo<p>
+<img src="foto.png" alt="exemplo de foto">
+
+Estilo em CSS
+h1{
+    font-family:Arial;
+    font-size:20pt;
+    color:blue;
+}
+
+Estrutura básica de documento HTML
+
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8>(#permite caracter especial)
+        <meta name="viewport" content="width=device-width,
+        initial-scale=1.0"
+        <title>Document</title>
+    </head>
+    <body>
+
+    </body>
+    </html>
+
+
+Capítulo 4 - Aula 02
+Para puxar o código base do html no vs code é só digitar ! e dá enter
+algumas tags tem parámetros padrão, ex: <h1><h1> é só digitar h1 e dá enter
+
+Capítulo 5 - Aula 01
+
+
+
+
+
+
+
+
+Capítulo 06 -
+
+iconarchive.com
+favicon.cc
+favicon.io
+
+Adicionar favcon: link:favcon
+
+Capítulo 07
+
+Hierarquia não tem a ver com tamanho da letra, e sim o nível hierarquico do título
+texto aleatório para testar: lorem
+
+Capítulo 08 - Aula 01
+
+existem tags absoletaS, não use.
+
+Aula 02 -
+
+para facilitar colocar a frase entre as tag: cntrl + shift + p - wrap with abbreviation - colocar a tag
+
+Negrito: B(não semântico) ou Strong(semântico)
+itáilico: I(não semântico) ou em(semântico)
+
+Aula 03 -
+
+style é CSS e não html.
+<mark style="background-color: rgb(242, 0, 255);">um texto marcado</mark> - esse jeito precisaria fazer para cada mark
+caso eu queira mudar todos de uma vez(dessa página), eu vou no cabeçalho e utilizo a tag style e mark:
+<style>
+        mark {
+            background-color: aquamarine;
+        }
+    </style>
+
+Pq big é obsoleto e small não?
+big não tem semântica
+small pode significar as "letras pequenas" do contrato, por exemplo..
+
+para ver todas as tag, abre o index do ex008b
+
+Capítulo 09 - Aula 01
+
+A partir do html5 o <LI> final se tornou opcional
+    <ol>
+        <li>Acordar</li>
+        <li>Tomar Café</li>
+        <li>Escovar os Dentes</li>
+    </ol>
+        <li>Acordar
+        <li>Tomar Café
+        <li>Escovar os Dentes
+    </ol>
+
+    ol - <!--1 A a I i-->
+    ul - <!--dis circle square-->
+
+Capítulo 10 - Aula 01
+

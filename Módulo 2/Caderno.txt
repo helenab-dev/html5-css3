@@ -1,0 +1,70 @@
+=-=-=-= MÓDULO 2 =-=-=-=
+Capítulo 13 - Psicologia das cores:
+ PDF 13 - Cores
+
+Círculo cromatico
+Cores primárias: Amarelo - Vermelho - Azul
+Cores secundárias: Laranja - Violeta - Verde
+Cores terciárias: todas as misturas entre os primários e secundários
+    : amarelo-esverdeado - amarelo-alaranjado - vermelho-alaranjado - vermelho-arroxeado - azul-arroxeado - azul-esverdeado
+Temperatura de cores
+
+Para criação de site é muito importante escolher a paleta de cores!!!
+Normalmente de 3 á 5 cores(preto e branco sempre vão estar)
+
+https://color.adobe.com/pt/create/color-wheel
+https://paletton.com/
+
+Como capturar cor da tela:
+Extensão Collorzila do chrome
+
+gostei:
+$eggplant: #714955ff;
+$french-gray: #c7ccdbff;
+$mindaro: #e6f9afff;
+$bittersweet: #ff715bff;
+$indigo-dye: #003d5bff;
+
+Capítulo 14 - Aula 04
+
+shorthand - font
+
+font-style -> font weight -> font-size -> font family
+
+            /*
+            Tipos de Format()
+            - opentype(otf)
+            - truetype (ttf)
+            - embedded-opentype
+            - truetype-aat ( Apple Advanced Typography)
+            - svg
+            */
+
+Plugin legal para pegar fonte dentro de um texto em algum site:
+Fonts Ninja
+Fonte dentro de uma imagem:
+https://www.whatfontis.com/
+https://www.fontsquirrel.com/
+https://www.myfonts.com/
+
+
+Ferramenta para planejar seu site:
+https://mockflow.com/
+https://color.adobe.com/pt/create/color-wheel
+
+
+Sobre desafio 10:
+Eu coloquei o menu(nav) dentro do header, o  Guanabara colocou fora
+
+eu separei em duas sections, uma principal e uma EXTRA. O Guanabara colocou tuno em um artigo e o extra colocou no aside
+
+Não coloquei a tradução dos itens da lista
+
+ele ensionou a criar variável para facilitar a palheta de cores
+:root - variavel global
+
+selecionar tudo de uma vez: * {
+
+}
+
+RESPONSIVIDADE:
